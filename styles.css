@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font-family: Helvetica;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 11px;
+    color: #333;
+  }
+  header p {
+    max-width: 800px;
+  }
+  div#img-div {
+    margin-top: 50px;
+  }
+  figcaption#img-caption {
+    padding: 11px 0;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  a {
+    color: #333;
+  }
